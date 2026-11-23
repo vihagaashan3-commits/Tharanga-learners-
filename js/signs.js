@@ -940,6 +940,55 @@ const SIGNS = [
           ta: "தொடர்ச்சியான மையக்கோடு",
         },
       },
+            {
+        img: "images/signs/rm7.jpg",
+        text: { en: "Broken centre line combined with a continuous line running parallel", si: "කඩ ඉරි මධ්‍ය රේඛාව නිරන්තරව අඛණ්ඩ රේඛාව සහ සමාන්තරවීම සමග සංයෝජනය වීම", ta: "உடைந்த மையக்கோடு தொடர்ச்சியான கோட்டுடன் இணையாக இணைதல்" }
+      },
+      {
+        img: "images/signs/rm8.jpg",
+        text: { en: "Continuous centre line combined with a broken line", si: "අඛණ්ඩ මධ්‍ය රේඛාව සහ කැඩුණු රේඛාව සමග සංයෝජනය වීම", ta: "தொடர்ச்சியான மையக்கோடு உடைந்த கோட்டுடன் இணைதல்" }
+      },
+      {
+        img: "images/signs/rm9.jpg",
+        text: { en: "Broken centre line combined with a continuous line containing reflective studs", si: "කඩ ඉරි මධ්‍ය රේඛාව සහ අඛණ්ඩ ප්‍රතිදීප්ත බුබුලු ඇතුළත් රේඛාව සමග සංයෝජනය වීම", ta: "உடைந்த மையக்கோடு ஒளிர்வுக் குமிழ்கள் கொண்ட தொடர்ச்சியான கோட்டுடன் இணைதல்" }
+      },
+      {
+        img: "images/signs/rm10.jpg",
+        text: { en: "Centre line with studs combined with continuous broken lines", si: "කඩ ඉරි රේඛා අඛණ්ඩව මධ්‍ය රේඛා සමග සංයෝජනය වන බුබුලු සමග මධ්‍ය රේඛාව", ta: "தொடர்ச்சியான உடைந்த கோடுகள் மையக்கோட்டுடன் இணையும் குமிழ்களுடன் கூடிய மையக்கோடு" }
+      },
+      {
+        img: "images/signs/rm11.jpg",
+        text: { en: "Long double continuous centre line", si: "දීර්ඝ ද්විත්ව අඛණ්ඩ මධ්‍ය රේඛාව", ta: "நீண்ட இரட்டைத் தொடர்ச்சியான மையக்கோடு" }
+      },
+      {
+        img: "images/signs/rm12.jpg",
+        text: { en: "Crossing over a long double continuous centre line with reflective studs", si: "දීර්ඝ ද්විත්ව අඛණ්ඩ ප්‍රතිදීප්ත බුබුලු ඇතුලත් මධ්‍ය රේඛාව හරහා මාරුව", ta: "ஒளிர்வுக் குமிழ்கள் கொண்ட நீண்ட இரட்டைத் தொடர்ச்சியான மையக்கோட்டைக் கடத்தல்" }
+      },
+
+      {
+        img: "images/signs/rm13.jpg",
+        text: { en: "Lane markings", si: "මං තීරු ලකුණු", ta: "பாதைக் குறியிடல்கள்" }
+      },
+      {
+        img: "images/signs/rm14.jpg",
+        text: { en: "Edge line marking the edge of the carriageway", si: "ධාවන පථයේ අයින දැක්වීමට පිහිටුවන ආයත රේඛාව", ta: "சாலையின் ஓரத்தைக் காட்டும் ஓரக்கோடு" }
+      },
+      {
+        img: "images/signs/rm15.jpg",
+        text: { en: "Long line of reflective studs along the road", si: "ප්‍රතිදීප්ත බුබුලු මාර්ගයේ දිග් රේඛාව", ta: "சாலையின் நீளவாட்டில் ஒளிர்வுக் குமிழ்களின் கோடு" }
+      },
+      {
+        img: "images/signs/rm16.jpg",
+        text: { en: "Yellow line along the edge showing that parking is prohibited or restricted", si: "රථ වාහන ගාල් කිරීම තහනම් කර ඇති බව හෝ සීමා කර ඇති බව දැක්වීමට ධාවන පථයේ අයින දිගේ පිහිටුවන රේඛාව (කහ පැහැති රේඛාව)", ta: "வாகனங்களை நிறுத்துவது தடை செய்யப்பட்டுள்ளது அல்லது கட்டுப்படுத்தப்பட்டுள்ளது என்பதைக் காட்ட சாலை ஓரத்தில் உள்ள கோடு (மஞ்சள் கோடு)" }
+      },
+      {
+        img: "images/signs/rm17.jpg",
+        text: { en: "Double yellow lines: no stopping or parking", si: "වාහන නවතා තැබීම තහනම් ද්විත්ව රේඛා (කහ පැහැති රේඛා)", ta: "இரட்டை மஞ்சள் கோடுகள்: வாகனங்களை நிறுத்தத் தடை" }
+      },
+      {
+        img: "images/signs/rm18.jpg",
+        text: { en: "Double line with studs: no stopping or parking", si: "බුබුලු සහිත වාහන නවතා තැබීම තහනම් ද්විත්ව රේඛාව", ta: "குமிழ்களுடன் கூடிய இரட்டைக் கோடு: வாகனங்களை நிறுத்தத் தடை" }
+      }
     ],
   },
 
