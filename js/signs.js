@@ -1036,6 +1036,126 @@ const SIGNS = [
           ta: "குமிழ்களுடன் கூடிய இரட்டைக் கோடு: வாகனங்களை நிறுத்தத் தடை",
         },
       },
+      {
+        img: "images/signs/rm19.jpg",
+        text: {
+          en: "Service lanes for vehicles from the opposite direction",
+          si: "විරුද්ධ පැත්තේ රථ වාහන සේවා තීරු",
+          ta: "எதிர்த் திசையிலிருந்து வரும் வாகனங்களுக்கான சேவைப் பாதைகள்",
+        },
+      },
+      {
+        img: "images/signs/rm20.jpg",
+        text: {
+          en: "Service lanes for vehicles in the same direction (approaching)",
+          si: "එකම දිශාවට රථ වාහන සේවා තීරු (ළගා වන)",
+          ta: "ஒரே திசையில் செல்லும் வாகனங்களுக்கான சேவைப் பாதைகள் (இணைவது)",
+        },
+      },
+      {
+        img: "images/signs/rm21.jpg",
+        text: {
+          en: "Service lanes for vehicles in the same direction (leaving)",
+          si: "එකම දිශාවට රථ වාහන සේවා තීරු (පිටවන)",
+          ta: "ஒரே திசையில் செல்லும் வாகனங்களுக்கான சேவைப் பாதைகள் (வெளியேறுவது)",
+        },
+      },
+      {
+        img: "images/signs/rm22.jpg",
+        text: {
+          en: "Compulsory left turn",
+          si: "අනිවාර්යයෙන්ම වමට හැරවීම",
+          ta: "கட்டாயமாக இடப்புறம் திரும்புதல்",
+        },
+      },
+      {
+        img: "images/signs/rm23.jpg",
+        text: {
+          en: "Compulsory right turn",
+          si: "අනිවාර්යයෙන්ම දකුණට හැරවීම",
+          ta: "கட்டாயமாக வலப்புறம் திரும்புதல்",
+        },
+      },
+      {
+        img: "images/signs/rm24.jpg",
+        text: {
+          en: "Compulsory straight ahead",
+          si: "අනිවාර්යයෙන්ම කෙළින්ම ඉදිරියට",
+          ta: "கட்டாயமாக நேராக முன்னே செல்லுதல்",
+        },
+      },
+      {
+        img: "images/signs/rm25.jpg",
+        text: {
+          en: "Marking used to inform vehicles of the suitable lane",
+          si: "සුදුසු රථ ධාවන තීරයක් වාහන වලට දැන්වීමට යොදා ඇති ලකුණු කිරීම",
+          ta: "பொருத்தமான பாதையை வாகனங்களுக்குத் தெரிவிக்கும் குறியிடல்",
+        },
+      },
+      {
+        img: "images/signs/rm26.jpg",
+        text: { en: "“Slow”", si: "“සෙමින්”", ta: "“மெதுவாக”" },
+      },
+      {
+        img: "images/signs/rm27.jpg",
+        text: { en: "“Stop”", si: "“නවතිනු”", ta: "“நிறுத்து”" },
+      },
+      {
+        img: "images/signs/rm28.jpg",
+        text: {
+          en: "Bus lane",
+          si: "බස් රථ ධාවන තීරුව",
+          ta: "பேருந்துப் பாதை",
+        },
+      },
+      {
+        img: "images/signs/rm29.jpg",
+        text: {
+          en: "Cycle lane",
+          si: "පාපැදි ධාවන තීරුව",
+          ta: "மிதிவண்டிப் பாதை",
+        },
+      },
+      {
+        img: "images/signs/rm30.jpg",
+        text: {
+          en: "Cyclist crossing",
+          si: "පාපැදිකරුවන් මාරු වන ස්ථානය",
+          ta: "மிதிவண்டி ஓட்டுநர்கள் கடக்கும் இடம்",
+        },
+      },
+      {
+        img: "images/signs/rm31.jpg",
+        text: {
+          en: "Warning line indicating a hazard on the road",
+          si: "මාර්ගයේ අවදානමක් ඇති බවට අනතුරු ඇගවීමේ රේඛාව",
+          ta: "சாலையில் ஆபத்து உள்ளதை எச்சரிக்கும் கோடு",
+        },
+      },
+      {
+        img: "images/signs/rm32.jpg",
+        text: {
+          en: "Bus lane",
+          si: "බස් රථ ධාවන තීරුව",
+          ta: "பேருந்துப் பாதை",
+        },
+      },
+      {
+        img: "images/signs/rm33.jpg",
+        text: {
+          en: "Box junction (yellow lines)",
+          si: "මං සන්ධි කොටුව (කහ පැහැති රේඛා)",
+          ta: "சந்திப்புப் பெட்டி (மஞ்சள் கோடுகள்)",
+        },
+      },
+      {
+        img: "images/signs/rm34.jpg",
+        text: {
+          en: "Pedestrian crossing marked with zebra stripes to show where pedestrians must cross a two-lane road",
+          si: "පදිකයින් විසින් ධාවන තීරු දෙකකින් යුත් මාර්ගය හරහා ගමන් කළ යුතු ස්ථානය දැක්වීමට සීබ්‍රා ඉරි වලින් සලකුණු කරන ලද මාරුවන ස්ථානය",
+          ta: "இரண்டு பாதைகள் கொண்ட சாலையைப் பாதசாரிகள் கடக்க வேண்டிய இடத்தைக் காட்ட வரிக்குதிரைக் கோடுகளால் குறியிடப்பட்ட கடவை",
+        },
+      },
     ],
   },
 
