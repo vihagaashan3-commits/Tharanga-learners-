@@ -1158,6 +1158,35 @@ const SIGNS = [
       },
     ],
   },
+  {
+    title: { en: "Road junctions", si: "මං සන්ධි", ta: "சாலைச் சந்திப்புகள்" },
+    items: [
+      {
+        img: "images/signs/rj1.jpg",
+        text: {
+          en: "Crossroads with a give way line: look at the junction, signal, then manoeuvre",
+          si: "ඉඩදීමේ ඉර සහිත චතුර්මංසල: සන්ධිය බලන්න, සංඥාව දක්වන්න, රථය හසුරුවන්න",
+          ta: "வழிவிடும் கோட்டுடன் கூடிய நாற்சந்தி: சந்திப்பைப் பார்க்கவும், சமிக்ஞை காட்டவும், வாகனத்தைச் செலுத்தவும்",
+        },
+      },
+      {
+        img: "images/signs/rj2.jpg",
+        text: {
+          en: "Junction with a roundabout and give way lines",
+          si: "වටරවුමක් සහ ඉඩදීමේ ඉර සහිත මං සන්ධිය",
+          ta: "வட்டச்சந்தியும் வழிவிடும் கோடுகளும் கொண்ட சந்திப்பு",
+        },
+      },
+      {
+        img: "images/signs/rj3.jpg",
+        text: {
+          en: "T-junction with a give way line",
+          si: "ඉඩදීමේ ඉර සහිත ත්‍රිමංසල",
+          ta: "வழிவிடும் கோட்டுடன் கூடிய முச்சந்தி",
+        },
+      },
+    ],
+  },
 
   // add more sections by copying a { title, items } block
 ];
