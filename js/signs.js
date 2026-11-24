@@ -1187,6 +1187,68 @@ const SIGNS = [
       },
     ],
   },
+  {
+    title: {
+      en: "Traffic light signals",
+      si: "රථ වාහන ආලෝක සංඥා",
+      ta: "போக்குவரத்து ஒளிச் சமிக்ஞைகள்",
+    },
+    items: [
+      {
+        img: "images/signs/ls1.jpg",
+        text: { en: "Red light", si: "රතු එළිය", ta: "சிவப்பு ஒளி" },
+        desc: {
+          en: "Stop. Do not go beyond the stop line.",
+          si: "නතර කරනු. නැවතුම් රේඛාවෙන් ඔබ්බට නොයන්න.",
+          ta: "நிறுத்தவும். நிறுத்தக் கோட்டைத் தாண்டிச் செல்ல வேண்டாம்.",
+        },
+      },
+      {
+        img: "images/signs/ls2.jpg",
+        text: {
+          en: "Red and amber light",
+          si: "රතු සහ කහ එළිය",
+          ta: "சிவப்பு மற்றும் மஞ்சள் ஒளி",
+        },
+        desc: {
+          en: "Stop. The signal is about to change. Do not go until the green light shows.",
+          si: "නතර කරනු. සංඥාව වෙනස් වීමට ආසන්නයි. කොළ එළිය පෙනෙන තෙක් ඉදිරියට නොයන්න.",
+          ta: "நிறுத்தவும். சமிக்ஞை மாறப்போகிறது. பச்சை ஒளி வரும் வரை செல்ல வேண்டாம்.",
+        },
+      },
+      {
+        img: "images/signs/ls3.jpg",
+        text: { en: "Green light", si: "කොළ එළිය", ta: "பச்சை ஒளி" },
+        desc: {
+          en: "You may go straight ahead or turn left or right with care, giving way to pedestrians and vehicles already in the junction.",
+          si: "ඉදිරියට යා හැක, නැතහොත් ප්‍රවේශමෙන් වමට හෝ දකුණට හැරවිය හැක. පදිකයින්ට සහ සන්ධියේ සිටින වාහනවලට ඉඩ දෙන්න.",
+          ta: "கவனத்துடன் நேராகச் செல்லலாம் அல்லது இடமோ வலமோ திரும்பலாம். பாதசாரிகளுக்கும் சந்திப்பில் உள்ள வாகனங்களுக்கும் வழிவிடவும்.",
+        },
+      },
+      {
+        img: "images/signs/ls4.jpg",
+        text: { en: "Amber light", si: "කහ එළිය", ta: "மஞ்சள் ஒளி" },
+        desc: {
+          en: "Slow down and drive with care.",
+          si: "වේගය අඩු කර ප්‍රවේශමෙන් ධාවනය කරන්න.",
+          ta: "வேகத்தைக் குறைத்துக் கவனத்துடன் ஓட்டவும்.",
+        },
+      },
+      {
+        img: "images/signs/ls5.jpg",
+        text: {
+          en: "Flashing amber light",
+          si: "ජ්වලනය වන කහ එළිය",
+          ta: "ஒளிரும் மஞ்சள் ஒளி",
+        },
+        desc: {
+          en: "Slow down and proceed with caution.",
+          si: "වේගය අඩු කර ප්‍රවේශමෙන් ඉදිරියට යන්න.",
+          ta: "வேகத்தைக் குறைத்து எச்சரிக்கையுடன் முன்னேறவும்.",
+        },
+      },
+    ],
+  },
 
   // add more sections by copying a { title, items } block
 ];
