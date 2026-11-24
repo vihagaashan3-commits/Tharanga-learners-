@@ -275,6 +275,12 @@ button.card-x:hover {
     height: 110px;
     margin-bottom: 10px;
 }
+.sign-desc {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 0.5rem 0 0;
+    text-align: left;
+}
 @media (max-width: 900px) {
     .sign-grid {
         grid-template-columns: repeat(3, 1fr);
