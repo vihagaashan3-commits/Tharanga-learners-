@@ -294,3 +294,67 @@ button.card-x:hover {
         font-size: 1.2rem;
     }
 }
+.exam-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.example-box {
+    max-width: 640px;
+    border: 2px dotted var(--muted);
+    padding: 0.8rem 1rem;
+}
+.exam-bar {
+    height: 6px;
+    background: var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.exam-bar i {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--red);
+    transition: width 0.3s;
+}
+.q-img {
+    max-height: 160px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 12px;
+}
+.opt {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.8rem 1rem;
+    margin: 0.6rem 0;
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--text);
+    border-radius: 0.4rem;
+}
+.opt:hover {
+    border-color: var(--red);
+}
+.opt.sel {
+    border-color: var(--red);
+    background: var(--alt);
+}
+.rev {
+    border-left: 4px solid;
+    padding: 0.6rem 0.8rem;
+    margin: 0.5rem 0;
+    background: var(--alt);
+    font-size: 0.9rem;
+}
+.rev.ok {
+    border-color: #16a34a;
+}
+.rev.bad {
+    border-color: #dc2626;
+}
