@@ -149,6 +149,30 @@ function openIntro(l, p) {
 $("back1").onclick = () => panel("list");
 $("start").onclick = start;
 
+const DETAILS_IMG = {
+  si: "images/exam/details-si.jpg",
+  en: "images/exam/details-en.jpg",
+  ta: "images/exam/details-ta.jpg",
+};
+
+function openIntro(l, p) {
+  lang = l;
+  paper = PAPERS[l][p];
+  const x = t();
+  $("back1").textContent = x.back;
+
+  const img = $("i-img");
+  img.onerror = () => {
+    img.onerror = null;
+    img.src = DETAILS_IMG.si;
+  }; // fall back to the Sinhala picture
+  img.src = DETAILS_IMG[l];
+
+  $("i-paper").textContent = `${x.paper} (${p})`;
+  $("start").textContent = x.start;
+  panel("intro");
+}
+
 /* quiz */
 function start() {
   idx = 0;

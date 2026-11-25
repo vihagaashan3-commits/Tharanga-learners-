@@ -5,7 +5,8 @@ const PAPER_EN_1 = {
   minutes: 60,
   questions: [
     {
-      q: "What does a red octagonal sign mean?",
+      img: "images/signs/prs1.jpg",
+      q: "What does this sign mean?",
       o: ["Give way", "Stop completely", "Slow down", "Parking is allowed"],
       c: 1,
     },
@@ -84,10 +85,28 @@ const PAPER_EN_1 = {
       ],
       c: 1,
     },
-    /* picture question example (delete the // to use it):
-    ,{ img: "images/signs/dws10.jpg", q: "What does this sign mean?",
-      o: ["Road narrows on the left ahead", "Road narrows on the right ahead", "Two-way traffic ahead", "Cross roads ahead"], c: 0 }
-    */
+    {
+      img: "images/signs/dws10.jpg",
+      q: "What does this sign mean?",
+      o: [
+        "Road narrows on the left ahead",
+        "Road narrows on the right ahead",
+        "Two-way traffic ahead",
+        "Cross roads ahead",
+      ],
+      c: 0,
+    },
+    {
+      img: "images/signs/dws21.jpg",
+      q: "What does this sign mean?",
+      o: [
+        "Narrow bridge ahead",
+        "Two-way traffic ahead",
+        "Stop ahead",
+        "Give way ahead",
+      ],
+      c: 0,
+    },
   ],
 };
 
@@ -96,7 +115,8 @@ const PAPER_SI_1 = {
   minutes: 60,
   questions: [
     {
-      q: "රතු අටපට්ටම් සලකුණෙන් දැක්වෙන්නේ?",
+      img: "images/signs/prs1.jpg",
+      q: "මෙම සලකුණෙන් දැක්වෙන්නේ?",
       o: [
         "මඟ දෙන්න",
         "සම්පූර්ණයෙන් නවත්වන්න",
@@ -126,7 +146,7 @@ const PAPER_SI_1 = {
       c: 0,
     },
     {
-      q: "ශ්‍රී ලංකාවේ වාහන ධාවනය කරන්නේ මාර්gයේ කුමන පැත්තෙන්ද?",
+      q: "ශ්‍රී ලංකාවේ වාහන ධාවනය කරන්නේ මාර්ගයේ කුමන පැත්තෙන්ද?",
       o: ["දකුණු පැත්ත", "වම් පැත්ත", "මැද", "ඕනෑම පැත්තක්"],
       c: 1,
     },
@@ -140,6 +160,17 @@ const PAPER_SI_1 = {
       ],
       c: 1,
     },
+    {
+      img: "images/signs/dws10.jpg",
+      q: "මෙම සලකුණෙන් දැක්වෙන්නේ?",
+      o: [
+        "මාර්ගයේ වම්පස පටු වීම ඉදිරියෙනි",
+        "මාර්ගයේ දකුණුපස පටු වීම ඉදිරියෙනි",
+        "ද්වි-මාර්ග ගමනාගමනය ඉදිරියෙනි",
+        "එකිනෙක හරහා ගමන් කරන මාර්ග ඉදිරියෙනි",
+      ],
+      c: 0,
+    },
   ],
 };
 
@@ -148,7 +179,8 @@ const PAPER_TA_1 = {
   minutes: 60,
   questions: [
     {
-      q: "சிவப்பு எண்கோண அடையாளம் குறிப்பது?",
+      img: "images/signs/prs1.jpg",
+      q: "இந்த அடையாளம் குறிப்பது?",
       o: [
         "வழிவிடவும்",
         "முழுமையாக நிறுத்தவும்",
@@ -191,6 +223,17 @@ const PAPER_TA_1 = {
         "குறுகிய தூரத்துக்குப் பரவாயில்லை",
       ],
       c: 1,
+    },
+    {
+      img: "images/signs/dws10.jpg",
+      q: "இந்த அடையாளம் குறிப்பது?",
+      o: [
+        "முன்னால் சாலை இடது பக்கத்தில் குறுகுகிறது",
+        "முன்னால் சாலை வலது பக்கத்தில் குறுகுகிறது",
+        "முன்னால் இருவழிப் போக்குவரத்து",
+        "முன்னால் நாற்சந்தி",
+      ],
+      c: 0,
     },
   ],
 };
