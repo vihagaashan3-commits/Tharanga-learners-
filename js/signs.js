@@ -1198,9 +1198,9 @@ const SIGNS = [
         img: "images/signs/ls1.jpg",
         text: { en: "Red light", si: "රතු එළිය", ta: "சிவப்பு ஒளி" },
         desc: {
-          en: "Stop. Do not go beyond the stop line.",
-          si: "නතර කරනු. නැවතුම් රේඛාවෙන් ඔබ්බට නොයන්න.",
-          ta: "நிறுத்தவும். நிறுத்தக் கோட்டைத் தாண்டிச் செல்ல வேண்டாம்.",
+          en: "A red light means 'stop', and that you must not go beyond the line where vehicles are to stop. If there is no 'stop' line, you must not go beyond that point. If the signal is positioned in the middle and there is a road junction on the opposite side, you must not enter the junction. Where there is a pedestrian crossing, you must not go into the part where the roads intersect.",
+          si: "රතු එළියක් 'නතර කරනු' යන්න හා වාහන නතර කරනු යන රේඛාවෙන් ඔබ්බට නොයා යුතු බවයි. හෝ 'නතර කරනු' රේඛාවක් නොතිබුණේ නම් එයින් ඔබ්බට නොයායුතු හෝ සංඥාව මධ්‍යයේ සදහන්ව තිබුණේ නම් විරුද්ධ පැත්තේ මාර්ග ඡේදනයක් වේ නම් මාර්ග ඡේදනයට ඇතුළත් නොවිය යුතු හෝ පදික මාරුව ඇති කොටසේ මාර්ග ඡේදනය වන කොටසට නොයා යුතු බවට අදහස් කෙරේ",
+          ta: "சிவப்பு விளக்கு 'நிறுத்து' என்பதையும், வாகனங்கள் நிறுத்த வேண்டிய கோட்டைத் தாண்டிச் செல்லக் கூடாது என்பதையும் குறிக்கிறது. 'நிறுத்து' கோடு இல்லையெனில், அந்த இடத்தைத் தாண்டிச் செல்லக் கூடாது. சமிக்ஞை நடுவில் அமைந்திருந்து, எதிர்ப்புறத்தில் சாலை சந்திப்பு இருந்தால், அந்தச் சந்திப்புக்குள் நுழையக் கூடாது. பாதசாரி கடவை உள்ள இடத்தில், சாலைகள் சந்திக்கும் பகுதிக்குள் செல்லக் கூடாது.",
         },
       },
       {
@@ -1211,27 +1211,27 @@ const SIGNS = [
           ta: "சிவப்பு மற்றும் மஞ்சள் ஒளி",
         },
         desc: {
-          en: "Stop. The signal is about to change. Do not go until the green light shows.",
-          si: "නතර කරනු. සංඥාව වෙනස් වීමට ආසන්නයි. කොළ එළිය පෙනෙන තෙක් ඉදිරියට නොයන්න.",
-          ta: "நிறுத்தவும். சமிக்ஞை மாறப்போகிறது. பச்சை ஒளி வரும் வரை செல்ல வேண்டாம்.",
+          en: "Red and amber lights mean 'stop'. If the amber light comes on together with the red light, it indicates that the signal is about to change. It means you must not proceed until the green light appears.",
+          si: "රතු සහ කහ ආලෝකය 'නතර කරනු' යි අදහස් කෙරේ. කහ පාට ආලෝකය රතු එළිය සමඟ දැල්වේ නම් එයින් හැඟෙන්නේ සංඥාව වෙනස් වන බවයි. කොළ පැහැති එළිය දර්ශනය වන තෙක් ඉදිරියට නොයා යුතු බවට අදහස් කෙරේ.",
+          ta: "சிவப்பு மற்றும் மஞ்சள் விளக்கு 'நிறுத்து' என்பதைக் குறிக்கிறது. மஞ்சள் விளக்கு சிவப்பு விளக்குடன் சேர்ந்து எரிந்தால், சமிக்ஞை மாறப்போகிறது என்பதை அது உணர்த்துகிறது. பச்சை விளக்கு தோன்றும் வரை முன்னே செல்லக் கூடாது என்பதையே இது குறிக்கிறது.",
         },
       },
       {
         img: "images/signs/ls3.jpg",
         text: { en: "Green light", si: "කොළ එළිය", ta: "பச்சை ஒளி" },
         desc: {
-          en: "You may go straight ahead or turn left or right with care, giving way to pedestrians and vehicles already in the junction.",
-          si: "ඉදිරියට යා හැක, නැතහොත් ප්‍රවේශමෙන් වමට හෝ දකුණට හැරවිය හැක. පදිකයින්ට සහ සන්ධියේ සිටින වාහනවලට ඉඩ දෙන්න.",
-          ta: "கவனத்துடன் நேராகச் செல்லலாம் அல்லது இடமோ வலமோ திரும்பலாம். பாதசாரிகளுக்கும் சந்திப்பில் உள்ள வாகனங்களுக்கும் வழிவிடவும்.",
+          en: "A green light means vehicles may go straight ahead, or turn left or right, driving safely. However, where traffic is controlled by a green light at a junction, drivers should not be allowed/permitted to proceed if there is a traffic jam in the direction they intend to drive and they would be entering the junction, since they often have not made sure of the next opportunity to clear it.",
+          si: "කොළ එළියෙන් වාහන සෘජුවම ඉදිරියට යා යුතු හෝ වමට හෝ දකුණට ආරක්ෂා සහිතව ධාවනය කළ යුතු බව අදහස් කෙරේ. කෙසේ වෙතත් කොළ පැහැති එළියෙන් මාර්ග ඡේදනයක දී වාහන පාලනය කෙරෙන්නේ නම් රියැදුරන්ට වාහන තදබදයක්, තමන් ධාවනය කරන්නට බලාපොරොත්තු වන දිගාවට ඇත්තේ නම් සහ මාර්ග ඡේදනයකට ඇතුල් වන්නේ නම් බොහෝ විට ඔවුන් ඊළඟ අවස්ථාව පැහැදිලි කරගෙන නැති නිසා රියැදුරන්ට ඉදිරියට ධාවනය කිරීමට අනුමැතිය නොදිය යුතු යැයි අදහස් කෙරේ.",
+          ta: "கவனத்துடன் நேராகச் செல்லலாம் அல்லது இடமோ வலமோ திரும்பலாம். பாதசாரிகளுக்கும் சந்திப்பில் உள்ள வாகனங்களுக்கும் வழிவிடவும்பச்சை விளக்கு, வாகனங்கள் நேராக முன்னே செல்லலாம் அல்லது பாதுகாப்பாக இடப்புறமோ வலப்புறமோ திரும்பிச் செல்லலாம் என்பதைக் குறிக்கிறது. ஆனால், சந்திப்பில் பச்சை விளக்கால் வாகனங்கள் கட்டுப்படுத்தப்படும்போது, ஓட்டுநர்கள் செல்ல விரும்பும் திசையில் வாகன நெரிசல் இருந்து, அவர்கள் சந்திப்புக்குள் நுழைய நேரிடும் என்றால், அடுத்த வாய்ப்பு தெளிவாக இருப்பதை உறுதிசெய்யாத காரணத்தால், ஓட்டுநர்கள் முன்னே செல்ல அனுமதிக்கப்படக் கூடாது என்று குறிப்பிடப்படுகிறது..",
         },
       },
       {
         img: "images/signs/ls4.jpg",
         text: { en: "Amber light", si: "කහ එළිය", ta: "மஞ்சள் ஒளி" },
         desc: {
-          en: "Slow down and drive with care.",
-          si: "වේගය අඩු කර ප්‍රවේශමෙන් ධාවනය කරන්න.",
-          ta: "வேகத்தைக் குறைத்துக் கவனத்துடன் ஓட்டவும்.",
+          en: "A single flashing amber light means drivers should slow down and proceed with care. The flashing amber light should be used where the three-colour system is used when there is little traffic, and especially at night. Flashing amber signals are installed at junctions. They operate when the regular vehicle light signals are not in operation.",
+          si: "කහ පැහැති ජ්වලනයවන තනි එළිය යනුවෙන් අදහස් කරන්නේ රියැදුරන් තම වාහනයේ වේගය අඩු කර සැලකිලිමත්ව ධාවනය කිරීමය. දැල්වෙන ජ්වලිත කහ පැහැයට හුරු ආලෝකය භාවිතා කළ යුත්තේ තුන් පැහැති ක්‍රමය වාහන අඩු අවස්ථාවල දී මෙන්ම විශේෂයෙන් රාත්‍රී කාලයේ දී ය. දැල් වූ කහ පැහැති ආලෝක සංඥා එහි ඡේදන ස්ථානවල යොදවනු ඇත. ඒවා ක්‍රියාත්මක කරනුයේ වාහන ආලෝක ක්‍රියාත්මක නොවන අවස්ථාවල දීය.",
+          ta: "ஒற்றை மஞ்சள் ஒளிரும் விளக்கு என்பது, ஓட்டுநர்கள் தங்கள் வாகனத்தின் வேகத்தைக் குறைத்து எச்சரிக்கையுடன் ஓட்ட வேண்டும் என்பதைக் குறிக்கிறது. ஒளிரும் மஞ்சள் விளக்கு, மூன்று வண்ண முறை உள்ள இடங்களில் வாகனங்கள் குறைவாக இருக்கும் நேரங்களில், குறிப்பாக இரவு நேரத்தில் பயன்படுத்தப்பட வேண்டும். ஒளிரும் மஞ்சள் சமிக்ஞைகள் சந்திப்பு இடங்களில் பொருத்தப்படும். வழக்கமான வாகன ஒளி சமிக்ஞைகள் இயங்காத நேரங்களில் அவை இயக்கப்படுகின்றன.",
         },
       },
       {
@@ -1242,9 +1242,9 @@ const SIGNS = [
           ta: "ஒளிரும் மஞ்சள் ஒளி",
         },
         desc: {
-          en: "Slow down and proceed with caution.",
-          si: "වේගය අඩු කර ප්‍රවේශමෙන් ඉදිරියට යන්න.",
-          ta: "வேகத்தைக் குறைத்து எச்சரிக்கையுடன் முன்னேறவும்.",
+          en: "SA single flashing amber light means drivers should slow down and proceed with care. The flashing amber light should be used where the three-colour system is in place when there is little traffic, and especially at night. Flashing amber signals are installed at junctions. They operate when the regular vehicle light signals are not in operation.",
+          si: "කහ පැහැති ජ්වලනයවන තනි එළිය යනුවෙන් අදහස් කරන්නේ රියැදුරන් තම වාහනයේ වේගය අඩු කර සැලකිලිමත්ව ධාවනය කිරීමය. දැල්වෙන ජ්වලිත කහ පැහැයට හුරු ආලෝකය භාවිතා කළ යුත්තේ තුන් පැහැති ක්‍රමය වාහන අඩු අවස්ථාවල දී මෙන්ම විශේෂයෙන් රාත්‍රී කාලයේ දී ය. දැල් වූ කහ පැහැති ආලෝක සංඥා එහි ඡේදන ස්ථානවල යොදවනු ඇත. ඒවා ක්‍රියාත්මක කරනුයේ වාහන ආලෝක ක්‍රියාත්මක නොවන අවස්ථාවල දීය",
+          ta: "ஒற்றை மஞ்சள் ஒளிரும் விளக்கு என்பது, ஓட்டுநர்கள் தங்கள் வாகனத்தின் வேகத்தைக் குறைத்து எச்சரிக்கையுடன் ஓட்ட வேண்டும் என்பதைக் குறிக்கிறது. ஒளிரும் மஞ்சள் விளக்கு, மூன்று வண்ண முறை உள்ள இடங்களில் வாகனங்கள் குறைவாக இருக்கும் நேரங்களில், குறிப்பாக இரவு நேரத்தில் பயன்படுத்தப்பட வேண்டும். ஒளிரும் மஞ்சள் சமிக்ஞைகள் சந்திப்பு இடங்களில் பொருத்தப்படும். வழக்கமான வாகன ஒளி சமிக்ஞைகள் இயங்காத நேரங்களில் அவை இயக்கப்படுகின்றன.",
         },
       },
     ],
