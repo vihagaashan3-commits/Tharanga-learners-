@@ -129,7 +129,7 @@ const EVENTS = [
   ],
 ];
 
-/* Question papers: q = question, o = options, c = index of the correct option */
+/* Question papers: q = question, o = options, c = index of the correct option 
 const SAMPLE = [
   {
     q: "What does a red octagonal sign mean?",
@@ -151,4 +151,4 @@ const PAPERS = {
   en: { A: SAMPLE, B: SAMPLE, C: SAMPLE, D: SAMPLE },
   si: { A: SAMPLE, B: SAMPLE, C: SAMPLE, D: SAMPLE },
   ta: { A: SAMPLE, B: SAMPLE, C: SAMPLE, D: SAMPLE },
-};
+};*/
