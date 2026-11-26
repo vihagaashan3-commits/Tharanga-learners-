@@ -26,8 +26,8 @@ $("site-header").innerHTML = `
 
 $("site-footer").innerHTML = `
 <div class="site-footer"><div class="mb-2">${Object.entries(SCHOOL.social)
-  .map(([k, v]) => `<a href="${v}">${k}</a>`)
-  .join("")}</div>
+    .map(([k, v]) => `<a href="${v}">${k}</a>`)
+    .join("")}</div>
 © ${new Date().getFullYear()} ${SCHOOL.name} | Mobile: ${SCHOOL.phone}</div>`;
 
 if ($("stats"))
