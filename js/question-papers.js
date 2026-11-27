@@ -52,8 +52,8 @@ function panel(name) {
 $("cols").innerHTML = COLS.map(
   (c) => `<div class="col-sm-4 text-center"><h2 class="ttl fs-6">${c.name}</h2><p class="muted small">${c.hint}</p>
   ${Object.keys(PAPER_FILES)
-    .map((p) => `<button class="card-x paper-btn" data-l="${c.code}" data-p="${p}">${c.label} | ${p}</button>`)
-    .join("")}</div>`
+      .map((p) => `<button class="card-x paper-btn" data-l="${c.code}" data-p="${p}">${c.label} | ${p}</button>`)
+      .join("")}</div>`
 ).join("");
 
 document.querySelectorAll(".paper-btn").forEach((b) => (b.onclick = () => openIntro(b.dataset.l, b.dataset.p)));
@@ -125,19 +125,21 @@ function showQ() {
   $("bar").style.width = ((idx + 1) / n) * 100 + "%";
   $("count").textContent = `${idx + 1} / ${n}`;
   $("qbox").innerHTML =
-    (q.img ? `<img class="q-img" src="${q.img}" alt="" onerror="this.remove()">` : "") +
+    (q.img ? `<img class="q-img" src="${q.img}" decoding="async" alt="" onerror="this.remove()">` : "") +
     `<h2 class="h5 fw-bold">${q.q}</h2>`;
   $("opts").innerHTML = q.o
     .map((o, j) => `<button class="opt ${answers[idx] === j ? "sel" : ""}" data-j="${j}">${j + 1}. ${o}</button>`)
     .join("");
   $("opts").querySelectorAll(".opt").forEach(
     (b) =>
-      (b.onclick = () => {
-        answers[idx] = +b.dataset.j;
-        $("opts").querySelectorAll(".opt").forEach((x) => x.classList.toggle("sel", x === b));
-      })
+    (b.onclick = () => {
+      answers[idx] = +b.dataset.j;
+      $("opts").querySelectorAll(".opt").forEach((x) => x.classList.toggle("sel", x === b));
+    })
   );
   $("next").textContent = idx === n - 1 ? t().finish : t().next;
+  const nx = paper.questions[idx + 1];
+  if (nx && nx.img) new Image().src = nx.img;
 }
 
 $("next").onclick = () => {

@@ -4,7 +4,7 @@ const pick = $("pick"),
 
 function cell(i, l) {
   const pic = i.img
-    ? `<img src="${i.img}" alt="" onerror="this.outerHTML='<div style=&quot;color:red;font-size:11px;word-break:break-all&quot;>NOT FOUND:<br>${i.img}</div>'">`
+    ? `<img src="${i.img}" loading="lazy" decoding="async" width="110" height="110" alt="" onerror="this.outerHTML='<div class=&quot;sign-emoji&quot;>${i.emoji || ""}</div>'">`
     : `<div class="sign-emoji">${i.emoji || ""}</div>`;
   return `<div class="sign-cell">${pic}<div class="fw-semibold">${i.text[l]}</div>${i.desc ? `<p class="sign-desc">${i.desc[l]}</p>` : ""}</div>`;
 }
