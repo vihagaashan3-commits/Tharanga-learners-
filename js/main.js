@@ -25,10 +25,20 @@ $("site-header").innerHTML = `
 <div class="collapse d-md-none container pb-3" id="mnav">${NAV.map((n) => `<a class="d-block py-1 fw-semibold" href="${n[0]}">${n[1]}</a>`).join("")}</div></div>`;
 
 $("site-footer").innerHTML = `
-<div class="site-footer"><div class="mb-2">${Object.entries(SCHOOL.social)
+<div class="site-footer">
+    <div class="mb-2">
+        ${Object.entries(SCHOOL.social)
     .map(([k, v]) => `<a href="${v}">${k}</a>`)
-    .join("")}</div>
-© ${new Date().getFullYear()} ${SCHOOL.name} | Mobile: ${SCHOOL.phone}</div>`;
+    .join("")}
+    </div>
+
+    © ${new Date().getFullYear()} ${SCHOOL.name} | Mobile: ${SCHOOL.phone}
+    <br aria-hidden="true">
+    <small>
+        Icons by <a href="https://icons8.com" target="_blank">Icons8</a>.
+        All rights reserved © Icons8
+    </small>
+</div>`;
 
 if ($("stats"))
   $("stats").innerHTML = STATS.map((s) => {
