@@ -13,7 +13,7 @@ LOADED[1] = {
           "Unprotected railway crossing.",
           "Unprotected railway crossing ahead.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/signs/phs7.jpg",
@@ -244,7 +244,7 @@ LOADED[1] = {
           "Signalling, decision-making and action.",
           "All of the above are correct.",
         ],
-        c: 3,
+        c: 1,
       },
       {
         img: "images/signs/ls4.jpg",
@@ -266,7 +266,7 @@ LOADED[1] = {
           "Line prohibiting crossing the road.",
           "Lane marking.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/signs/p6.png",
@@ -277,7 +277,7 @@ LOADED[1] = {
           "Stop vehicles coming from the front.",
           "Stop vehicles coming from the front and behind.",
         ],
-        c: 2,
+        c: 3,
       },
       {
         img: "images/signs/new.jpg",
@@ -288,7 +288,7 @@ LOADED[1] = {
           "The motor car can turn left if necessary.",
           "The van can turn left if necessary.",
         ],
-        c: 3,
+        c: 0,
       },
       {
         img: "images/exam/ex5.jpg",
@@ -299,7 +299,7 @@ LOADED[1] = {
           "Give way line at a roundabout.",
           "Give way line.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/exam/ex6.jpg",
@@ -321,7 +321,7 @@ LOADED[1] = {
           "Need not stop when turning left.",
           "Need not stop if there are no vehicles on the main road.",
         ],
-        c: 3,
+        c: 0,
       },
       {
         img: "images/exam/ex7.jpg",
@@ -362,7 +362,7 @@ LOADED[1] = {
           "The middle lane of the road.",
           "The middle lane or the right-hand lane of the road.",
         ],
-        c: 1,
+        c: 2,
       },
       {
         q: "You should keep a sufficient distance between your vehicle and the vehicle ahead because",
@@ -412,7 +412,7 @@ LOADED[1] = {
           "Beyond 10 metres from a fire hydrant.",
           "Beyond 25 metres from a junction.",
         ],
-        c: 0,
+        c: 3,
       },
       {
         q: "You must not overtake another vehicle",
@@ -450,7 +450,7 @@ LOADED[1] = {
           "ආරක්ෂා කර නොමැති දුම්රිය හරස් මාර්ගය.",
           "ආරක්ෂා කර නොමැති දුම්රිය හරස් මාර්ගය ඉදිරියෙනි.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/signs/phs7.jpg",
@@ -681,7 +681,7 @@ LOADED[1] = {
           "සංඥා කිරීම , තීරණය කිරීම සහ ක්‍රියා කිරීම.",
           "ඉහත සියල්ල නිවැරදිය.",
         ],
-        c: 3,
+        c: 1,
       },
       {
         img: "images/signs/ls4.jpg",
@@ -703,7 +703,7 @@ LOADED[1] = {
           "මාර්ගය හරහා ගමන් කිරීම තහනම් කිරීමේ ආයත රේඛාව.",
           "ධාවන තීරු සලකුණ.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/signs/p6.png",
@@ -714,7 +714,7 @@ LOADED[1] = {
           "ඉදිරියෙන් පැමිණෙන වාහන නවතිනු.",
           "ඉදිරියෙන් හා පසුපසින් පැමිණෙන වාහන නවතිනු.",
         ],
-        c: 2,
+        c: 3,
       },
       {
         img: "images/signs/new.jpg",
@@ -725,7 +725,7 @@ LOADED[1] = {
           "මෝටර් කාරයට අවශ්‍ය නම් වමට හැරවිය හැකිය.",
           "වැන් රථයට අවශ්‍ය නම් වමට හැරවිය හැකිය.",
         ],
-        c: 3,
+        c: 0,
       },
       {
         img: "images/exam/ex5.jpg",
@@ -736,7 +736,7 @@ LOADED[1] = {
           "වටරවුමක පිහිටන මාර්ගය ඉඩදෙන රේඛාව.",
           "මාර්ගය ඉඩ දෙනු රේඛාවයි.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/exam/ex6.jpg",
@@ -758,7 +758,7 @@ LOADED[1] = {
           "වමට හැරවීමේදී නතර කළ යුතු නැත.",
           "ප්‍රධාන මාර්ගයේ වාහන නොමැති නම් නතර කළ යුතු නැත.",
         ],
-        c: 3,
+        c: 0,
       },
       {
         img: "images/exam/ex7.jpg",
@@ -799,7 +799,7 @@ LOADED[1] = {
           "මාර්ගයේ මැද මංතීරුවය.",
           "මාර්ගයේ මැද තීරුව හෝ දකුණුපස මංතීරුවය.",
         ],
-        c: 1,
+        c: 2,
       },
       {
         q: "ඔබගේ වාහනය හා ඔබට ඉදිරියෙන් ධාවනය වන වාහනය අතර ප්‍රමාණවත් දුරක් තබාගත යුත්තේ",
@@ -849,7 +849,7 @@ LOADED[1] = {
           "ගිනි නිවන ජල නලයක සිට මීටර 10ක සීමාවෙන් පිටත.",
           "මං සන්ධියක සිට මීටර 25ක සීමාවෙන් පිටත.",
         ],
-        c: 0,
+        c: 3,
       },
       {
         q: "ඔබ වෙනත් වාහනයකට ඉස්සර නොකළ යුත්තේ",
@@ -887,7 +887,7 @@ LOADED[1] = {
           "பாதுகாப்பற்ற ரயில் குறுக்குப் பாதை.",
           "முன்னால் பாதுகாப்பற்ற ரயில் குறுக்குப் பாதை உள்ளது.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/signs/phs7.jpg",
@@ -1118,7 +1118,7 @@ LOADED[1] = {
           "சமிக்ஞை செய்தல், முடிவெடுத்தல் மற்றும் செயல்படுதல்.",
           "மேற்கூறியவை அனைத்தும் சரி.",
         ],
-        c: 3,
+        c: 1,
       },
       {
         img: "images/signs/ls4.jpg",
@@ -1140,7 +1140,7 @@ LOADED[1] = {
           "சாலையைக் குறுக்கே கடப்பதைத் தடைசெய்யும் கோடு.",
           "பாதை (லேன்) குறியீடு.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/signs/p6.png",
@@ -1151,7 +1151,7 @@ LOADED[1] = {
           "முன்னால் இருந்து வரும் வாகனங்கள் நிற்கவும்.",
           "முன்னாலும் பின்னாலும் இருந்து வரும் வாகனங்கள் நிற்கவும்.",
         ],
-        c: 2,
+        c: 3,
       },
       {
         img: "images/signs/new.jpg",
@@ -1162,7 +1162,7 @@ LOADED[1] = {
           "மோட்டார் காரிற்குத் தேவையெனில் இடப்புறம் திரும்பலாம்.",
           "வேனிற்குத் தேவையெனில் இடப்புறம் திரும்பலாம்.",
         ],
-        c: 3,
+        c: 0,
       },
       {
         img: "images/exam/ex5.jpg",
@@ -1173,7 +1173,7 @@ LOADED[1] = {
           "சுற்றுவட்டத்தில் உள்ள வழிவிடும் கோடு.",
           "வழிவிடும் கோடு.",
         ],
-        c: 3,
+        c: 2,
       },
       {
         img: "images/exam/ex6.jpg",
@@ -1195,7 +1195,7 @@ LOADED[1] = {
           "இடப்புறம் திரும்பும்போது நிறுத்த வேண்டியதில்லை.",
           "பிரதான சாலையில் வாகனங்கள் இல்லையெனில் நிறுத்த வேண்டியதில்லை.",
         ],
-        c: 3,
+        c: 0,
       },
       {
         img: "images/exam/ex7.jpg",
@@ -1236,7 +1236,7 @@ LOADED[1] = {
           "சாலையின் நடுப் பாதை.",
           "சாலையின் நடுப் பாதை அல்லது வலப்புறப் பாதை.",
         ],
-        c: 1,
+        c: 2,
       },
       {
         q: "உங்கள் வாகனத்திற்கும் உங்களுக்கு முன்னால் செல்லும் வாகனத்திற்கும் இடையே போதுமான இடைவெளி விட வேண்டியது ஏனெனில்",
@@ -1286,7 +1286,7 @@ LOADED[1] = {
           "தீயணைப்பு நீர்க் குழாயிலிருந்து 10 மீட்டர் எல்லைக்கு வெளியே.",
           "சந்திப்பிலிருந்து 25 மீட்டர் எல்லைக்கு வெளியே.",
         ],
-        c: 0,
+        c: 3,
       },
       {
         q: "நீங்கள் வேறொரு வாகனத்தை முந்திச் செல்லக் கூடாத இடம்",

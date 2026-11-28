@@ -3,7 +3,7 @@ const NAV = [
   ["index.html", "Home", "home"],
   ["about.html", "About Us", "about"],
   ["contact.html", "Contact Us", "contact"],
-  ["event.html", "Event", "event"],
+  /*["event.html", "Event", "event"],*/
 ];
 
 const icon = document.createElement("link");
@@ -26,11 +26,11 @@ $("site-header").innerHTML = `
 
 $("site-footer").innerHTML = `
 <div class="site-footer">
-    <div class="mb-2">
+    <!--<div class="mb-2">
         ${Object.entries(SCHOOL.social)
     .map(([k, v]) => `<a href="${v}">${k}</a>`)
     .join("")}
-    </div>
+    </div> -->
 
     © ${new Date().getFullYear()} ${SCHOOL.name} | Mobile: ${SCHOOL.phone}
     <br aria-hidden="true">
@@ -53,12 +53,28 @@ if ($("courses"))
     (c) =>
       `<div class="col-sm-6 col-lg-3"><div class="card-x"><div class="fs-2">${c.icon}</div><h3 class="ttl fs-6 my-1">${c.title}</h3><ul class="muted small ps-3 mb-0">${c.points.map((p) => `<li>${p}</li>`).join("")}</ul></div></div>`,
   ).join("");
-if ($("events"))
+/*if ($("events"))
   $("events").innerHTML = EVENTS.map(
     (e) =>
       `<div class="col-sm-6"><div class="card-x"><span class="small fw-bold" style="color:var(--red)">${e[0]}</span><h3 class="fs-6 fw-bold">${e[1]}</h3><p class="muted small mb-0">${e[2]}</p></div></div>`,
-  ).join("");
+  ).join("");*/
 if ($("contact-info"))
   $("contact-info").innerHTML =
     SCHOOL.branches.map((b) => `<p>📍 ${b}</p>`).join("") +
     `<p>📞 ${SCHOOL.phone}</p><p>✉️ ${SCHOOL.email}</p>`;
+
+/* scroll reveal: fade elements in as they enter the screen */
+(function () {
+  const items = document.querySelectorAll("section h2, section .card-x, .stats-band .col-sm-4, section .ico");
+  if (!("IntersectionObserver" in window)) return;
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12 });
+  items.forEach((el, i) => {
+    el.classList.add("reveal");
+    el.style.transitionDelay = (i % 4) * 80 + "ms";   // small stagger inside a row
+    io.observe(el);
+  });
+})();

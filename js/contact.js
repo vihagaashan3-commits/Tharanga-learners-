@@ -7,17 +7,27 @@ list.innerHTML = SHOPS.map(
     <b><img src="images/pin.png" class="pin-icon" alt="location"> ${s.name}</b>
     <p class="muted small mb-1">${s.address}</p>
     <a href="tel:${s.phone}">📞 ${s.phone}</a> ·
-    <a href="${s.link}" target="_blank" rel="noopener">Directions</a>
+    <a href="${s.link}" class="dir-link" target="_blank" rel="noopener"><img src="images/direction-32.png" class="dir-icon" alt=""> Directions</a>
   </div>`,
 ).join("");
 
-function show(i) {
+function show(i, scroll = true) {
   frame.src = SHOPS[i].map;
-  list
-    .querySelectorAll(".shop")
-    .forEach((el, k) => el.classList.toggle("active", k === i));
+
+  const cards = list.querySelectorAll(".shop");
+  cards.forEach((el, k) => el.classList.toggle("active", k === i));
+
+  if (scroll) {
+    const card = cards[i];
+    const top = card.offsetTop - list.offsetTop;   // card position inside the list box
+    list.scrollTo({ top: top - 8, behavior: "smooth" });
+  }
 }
+
 list
   .querySelectorAll(".shop")
   .forEach((el) => (el.onclick = () => show(+el.dataset.i)));
-show(0);
+
+show(0, false);   // first branch on load, without scrolling
+
+

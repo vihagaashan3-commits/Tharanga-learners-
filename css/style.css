@@ -1,5 +1,6 @@
 :root {
     --bg: #fff;
+    --dr: #00b409;
     --alt: #f5f6fb;
     --text: #1b2233;
     --muted: #5d677d;
@@ -77,7 +78,7 @@ a {
     border-color: var(--red);
 }
 .btn-brand {
-    background: #262f8f;
+    background: var(--red);
     color: #fff;
     font-weight: 700;
     border: 0;
@@ -90,9 +91,40 @@ a {
     color: #fff;
 }
 .hero {
+    position: relative;
+    overflow: hidden;
     background: linear-gradient(110deg, #ba0000, #d53131);
     color: #fff;
     padding: 70px 0;
+}
+
+/* the photo: right side only, fading out toward the left */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 55%;
+    background: url("../images/background.png") center / cover no-repeat;
+    -webkit-mask-image: linear-gradient(60deg, transparent 0%, #000 55%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 55%);
+    pointer-events: none;
+}
+
+/* keep the text above the photo */
+.hero > .container {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .hero::before {
+        width: 100%;
+        opacity: 0.25;
+        -webkit-mask-image: none;
+        mask-image: none;
+    }
 }
 .hero h1 {
     font-weight: 800;
@@ -120,6 +152,10 @@ a.card-x:hover,
 button.card-x:hover {
     border-color: var(--brand);
 }
+.dir-link{color:#1a73e8;font-weight:700}
+.dir-link:hover{color:#0b57d0;text-decoration:underline}
+.dir-icon{width:16px;height:16px;vertical-align:-3px;margin-right:4px;display:inline-block}
+
 .ico img {
     width: 28px;
     height: 28px;
@@ -363,4 +399,61 @@ button.card-x:hover {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+/* ---------- hover transitions ---------- */
+.nav-link-x{transition:color .2s, border-color .2s}
+.btn-brand{transition:transform .2s, box-shadow .2s, filter .2s}
+.btn-brand:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.25)}
+.btn-brand:active{transform:translateY(0)}
+.card-x{transition:transform .25s, box-shadow .25s, border-color .25s}
+a.card-x:hover,button.card-x:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(0,0,0,.15)}
+.opt{transition:border-color .2s, background .2s, transform .15s}
+.opt:hover{transform:translateX(4px)}
+.ico{transition:transform .3s}
+.card-x:hover .ico{transform:scale(1.12) rotate(-4deg)}
+.logo img{transition:transform .3s}
+.logo:hover img{transform:scale(1.06)}
+
+/* ---------- scroll reveal (the class is added by main.js) ---------- */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease, transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- quiz panels and sign boxes fade in ---------- */
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+#list,#intro,#quiz,#result,#view,#pick{animation:fadeUp .4s ease}
+.sign-cell{animation:fadeUp .4s ease both}
+.sign-cell:nth-child(2){animation-delay:.04s}
+.sign-cell:nth-child(3){animation-delay:.08s}
+.sign-cell:nth-child(4){animation-delay:.12s}
+.sign-cell:nth-child(5){animation-delay:.16s}
+.sign-cell:nth-child(6){animation-delay:.2s}
+#qbox{animation:fadeUp .3s ease}
+
+/* ---------- page load ---------- */
+@keyframes pageIn{from{opacity:0}to{opacity:1}}
+body{animation:pageIn .5s ease}
+
+/* ---------- respect visitors who turn animations off ---------- */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+
+/* contact page: fixed-size map and scrolling branch list */
+#shop-list{height:520px;overflow-y:auto;padding:4px 8px 4px 2px;scrollbar-width:thin;scrollbar-color:var(--red) var(--alt)}
+#shop-list::-webkit-scrollbar{width:8px}
+#shop-list::-webkit-scrollbar-track{background:var(--alt);border-radius:4px}
+#shop-list::-webkit-scrollbar-thumb{background:var(--red);border-radius:4px}
+.map-box{height:520px;border:1px solid var(--line);border-radius:.75rem;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.map-box iframe{width:100%;height:100%;border:0;display:block}
+@media (max-width:767px){
+  #shop-list{height:340px}
+  .map-box{height:340px}
+}
+#pick {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)),
+        url("../images/Red\ Road\ Sign\ Pattern.png") center / cover no-repeat;
+    background-color: #fff;
+    padding: 2rem;
 }
